@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+}
+
+.main-header {
+    background-image: linear-gradient(#610f7f, #440b58);
+    border: 1px solid black;
+    padding: 2rem 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.main-nav__logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-nav__logo h1 {
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav__logo h1::after {
+    display: block;
+    text-align: right;
+    font-family: 'Mukta', sans-serif;
+    font-size: 0.7rem;
+    content: "Magazyn Petendo";
+    margin-top: -0.7rem;
+    padding: 0;
+}
+
+.main-nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav__item {
+    display: inline-block;
+    list-style: none;
+}
+
+.main-nav__item a {
+    color: white;
+    margin: 0;
+    padding: 0 1.5rem;
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: #efc6ff;
+    transition: ease-in;
+    transition-duration: 0.2s;
+}
+
+/* FONT AWESOME PADDING */
+.main-header .fas {
+    padding: 0.5rem;
+}
+
+.search-bar {
+    background: black;
+    width: 100%;
+    padding: 0.4rem;
+    margin: 0;
+    text-align: center;
+}
+
+.search-bar__position {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.search-bar__mag-glass {
+    color: white;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.search-bar__input-text {
+    border: none;
+    border-radius: 5px;
+    height: 1.25rem;
+    width: 35%;
+    
+}
+
+.main-container {
+    background: #e6e6e6;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.database-container {
+    height: 900px;
+}
+
+footer {
+    background: black;
+    color: #808080;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 1.4rem;
+}
